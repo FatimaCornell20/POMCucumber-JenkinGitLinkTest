@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Validate Free CRM HomePage Test",
+        "description": "",
+        "id": "free-crm-application-test;validate-free-crm-homepage-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7100142914,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user opens the browser",
+            "match": {
+              "location": "HomePageSteps.user_opens_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166076583,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on loginPage",
+            "match": {
+              "location": "HomePageSteps.user_is_on_loginPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1045540797,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs into app",
+            "match": {
+              "location": "HomePageSteps.user_enters_email_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5493624,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "home page is displayed",
+            "match": {
+              "location": "HomePageSteps.home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1018541925,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate correct user name",
+            "match": {
+              "location": "HomePageSteps.validate_home_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 934331882,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on home link",
+            "match": {
+              "location": "HomePageSteps.click_on_home_link()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Application Test",
+    "description": "",
+    "id": "free-crm-application-test",
+    "keyword": "Feature",
+    "uri": "freeCRM.feature"
+  }
+]
